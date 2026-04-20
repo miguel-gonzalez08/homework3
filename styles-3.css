@@ -1,0 +1,122 @@
+/*
+Program: styles-3.css
+Author: Miguel Gonzalez
+Date Created: 3/22/2026
+Date Last Edited: 3/22/2026
+Description: A stylesheet that is used for the patient form homework in MIS 3371.
+*/
+body {
+    background-color: rgb(208, 208, 208);
+    font-family: "Segoe UI", sans-serif;
+}
+ h1 {
+    text-align: center;
+    font-family: "Segoe UI", sans-serif;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+}
+ h2 {
+    text-align: center;
+    font-family: "Segoe UI", sans-serif;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+}
+table.form, tr.form, td.form {
+  width: 70%;
+  opacity: 0.9;
+  font-family: "Verdana", sans-serif;
+  background-color:rgb(0, 0, 0);
+  padding: 0px;
+  border-spacing: 00px;
+  color:rgb(255, 255, 255);
+  margin: 0 auto;
+}
+th.form {
+  font-family: "Verdana", sans-serif;
+  background-color:rgb(0, 0, 0);
+  padding: 20px;
+  border-spacing: 20px;
+  color:rgb(255, 255, 255);
+  margin: 0 auto;
+}
+table.reg, tr.reg, td.reg {
+  width: 70%;
+  opacity: 0.9;
+  font-family: "Verdana", sans-serif;
+  background-color:rgb(124, 3, 3);
+  padding: 0px;
+  border-spacing: 00px;
+  color:rgb(255, 255, 255);
+  margin: 0 auto;
+}
+th.reg {
+  font-family: "Verdana", sans-serif;
+  background-color:rgb(124, 3, 3);
+  padding: 20px;
+  border-spacing: 20px;
+  color:rgb(255, 255, 255);
+  margin: 0 auto;
+}
+table.medical, tr.medical, td.medical {
+  width: 70%;
+  opacity: 0.9;
+  font-family: "Verdana", sans-serif;
+  background-color:rgb(0, 0, 0);
+  padding: 0px;
+  border-spacing: 00px;
+  color:rgb(255, 255, 255);
+  margin: 0 auto;
+}
+th.medical {
+  font-family: "Verdana", sans-serif;
+  background-color:rgb(0, 0, 0);
+  padding: 20px;
+  border-spacing: 20px;
+  color:rgb(255, 255, 255);
+  margin: 0 auto;
+}
+table.Extra, tr.Extra, td.Extra {
+  width: 70%;
+  opacity: 0.9;
+  font-family: "Verdana", sans-serif;
+  background-color:rgb(0, 0, 0);
+  padding: 0px;
+  border-spacing: 00px;
+  color:rgb(255, 255, 255);
+  margin: 0 auto;
+}
+th.Extra {
+  font-family: "Verdana", sans-serif;
+  background-color:rgb(0, 0, 0);
+  padding: 20px;
+  border-spacing: 20px;
+  color:rgb(255, 255, 255);
+  margin: 0 auto;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #860101;
+  cursor: grab;
+}
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #860101;
+  cursor: grab;
+}
+.error {
+    color: yellow;
+    font-size: 10px;
+    margin: 0 auto;
+}
+.textsize1 
+{
+    width:10px
+}
+.textsize5 
+{
+    width:40px
+}
